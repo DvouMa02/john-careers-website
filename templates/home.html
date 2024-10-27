@@ -19,15 +19,23 @@
 
   
   <body>
+    {% include 'nav.html' %}
     <div class="container">
       <h1 class="text-center mt-2 mb-4">John Careers</h1>
       <img class="img-fluid" id="banner" src="https://68aafe64-b0dd-4058-ae5e-283920732df6-00-1yjoaqo2a93qx.kirk.replit.dev/static/fig1.jpg">
       <h2 class="text-center mt-2 mb-4">About John</h2>
-      <p class="lead">
-        A paragraph 
-        Tells
-        Me
-      </p>
+      <div class="row", style="margin-bottom:16px;">
+          <div class="col-6"
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae finibus lacus, sit amet auctor est. Etiam sed ex augue. Aenean sagittis sem tempus suscipit aliquet. Curabitur quis erat congue, euismod erat eget, auctor neque. Ut in eros convallis, vestibulum ex id, sollicitudin purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam pulvinar rhoncus nisl vel gravida. Maecenas eget neque vitae magna feugiat elementum a a sem. In vel rutrum enim. Donec interdum neque at dolor viverra lacinia. Sed fringilla leo eu elementum maximus. Etiam gravida, dolor cursus suscipit consequat, libero massa condimentum elit, non rutrum nulla nibh consectetur mi. Aliquam accumsan malesuada nibh sit amet consectetur. Donec ullamcorper sodales fermentum.
+
+              Aenean lorem dolor, finibus bibendum dictum ut, fringilla at mauris. Sed luctus ipsum a leo elementum malesuada. In sapien dolor, lacinia eget augue vel, fringilla efficitur sapien. Nunc a massa dolor. Pellentesque vel pretium ante. Ut eu magna cursus, imperdiet risus vitae, aliquet mauris. Phasellus nec bibendum nisi, nec placerat nulla. Proin ullamcorper enim elit, et ultricies lectus malesuada et. Ut aliquam luctus quam, nec elementum lacus egestas vitae. Praesent id erat ullamcorper, sagittis ipsum ac, semper elit. Duis interdum purus quis massa sollicitudin, vel egestas tortor egestas. Vestibulum in elit in elit lacinia cursus ac nec quam. Curabitur rhoncus eros purus, a lacinia lacus efficitur faucibus.
+             </p>
+          </div>
+          <div class="col-6"> 
+            <img src="/static/people.jpg" style="height:320px;border-radius:4px;">
+          </div>
+      </div>
       <h2 class="text-center mt-2 mb-4">Open Positions</h2>
       <div>
         {% for job in jobs %}
@@ -36,9 +44,9 @@
       <div>
       <div class="text-center">
         <button class="btn btn-secondary btn-lg">Contact Us</button>
-        <p class="mt-4">Copyright 2024</p>
       <div>
     </div>
+    {% include 'footer.html' %}
   </body>
 
   
