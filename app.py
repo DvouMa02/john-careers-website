@@ -3,7 +3,7 @@ from flask import Flask, render_template, jsonify
 #https://htmldog.com/guides/javascript/
 #http://www.htmldog.com/badge1.gif
 #https://getbootstrap.com/
-#59 minuta
+#1h 43 min
 
 app = Flask(__name__)
 
