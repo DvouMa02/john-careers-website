@@ -3,7 +3,9 @@ from flask import Flask, render_template, jsonify
 #https://htmldog.com/guides/javascript/
 #http://www.htmldog.com/badge1.gif
 #https://getbootstrap.com/
-#1h 43 min
+#https://css-tricks.com/snippets/html/mailto-links/
+#https://mailtolink.me/
+#1h 55 min
 
 app = Flask(__name__)
 
